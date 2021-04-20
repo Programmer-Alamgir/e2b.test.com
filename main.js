@@ -153,10 +153,10 @@ smt.addEventListener('click', () => {
     if (disAns.innerText.toUpperCase == rA.toUpperCase && disAns.innerText == rA) {
       s += 1;
       localStorage.setItem('score', s);
-      alert('👍 Well Done !, your answare \"' + disAns.innerText + '\". is currect..Your score [ ' + localStorage.getItem('score') + ' ]....Press \'OK\' to continue');
+      alert('👍 Well Done !, your answer \"' + disAns.innerText + '\". is currect..Your score [ ' + localStorage.getItem('score') + ' ]....Press \'OK\' to continue');
 
     } else {
-      alert('😞 Ohh !, your answare \"' + disAns.innerText + '\" is incurrect....Right answare is : \"' + rA + '\"....Press \'OK\' to continue');
+      alert('😞 Ohh !, your answer \"' + disAns.innerText + '\" is incurrect....Right answer is : \"' + rA + '\"....Press \'OK\' to continue');
     }
     // check question index number to display
     if (qution.length - 1 > index) {
@@ -166,7 +166,7 @@ smt.addEventListener('click', () => {
       disAns.innerHTML = '';
     } else {
       // end all question
-      var revice = confirm('Today your task had been complited...would you like to revice now..');
+      var revice = confirm('Today your task hsa completed...would you like to revice now..');
       if (revice) {
         // want to revice now
         index = 0;
