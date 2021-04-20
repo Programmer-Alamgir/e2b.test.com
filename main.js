@@ -40,7 +40,7 @@ var qution = [
     'এটা আপনার দয়া -এর ইংরেজী কি হবে ?',
      'এটার জন্য তুমি দায়ি -এর ইংরেজী কি হবে ?',
       'মুখে মধু আন্তরে বিষ -এর ইংরেজী কি হবে ?',
-       'ওকে ভরসা করনা','I felt like slapping him -এর বাংলা কি হবে ?','Your voice is breaking up -এর ইংরেজী কি হবে ?',
+       'ওকে ভরসা করনা -এর ইংরেজী কি হবে ?','I felt like slapping him -এর বাংলা কি হবে ?','Your voice is breaking up -এর ইংরেজী কি হবে ?',
   'Are you in your sense ! -এর ইংরেজী কি হবে ?','He was peeping through the window -এর ইংরেজী কি হবে ?','Don\'t forget to come tomorrow -এর ইংরেজী কি হবে ?'];
        // set all option
 var option = Array(
