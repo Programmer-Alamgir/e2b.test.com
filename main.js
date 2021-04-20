@@ -40,7 +40,8 @@ var qution = [
     'এটা আপনার দয়া -এর ইংরেজী কি হবে ?',
      'এটার জন্য তুমি দায়ি -এর ইংরেজী কি হবে ?',
       'মুখে মধু আন্তরে বিষ -এর ইংরেজী কি হবে ?',
-       'ওকে ভরসা করনা'];
+       'ওকে ভরসা করনা','I felt like slapping him -এর বাংলা কি হবে ?','Your voice is breaking up -এর ইংরেজী কি হবে ?',
+  'Are you in your sense ! -এর ইংরেজী কি হবে ?','He was peeping through the window -এর ইংরেজী কি হবে ?','Don\'t forget to come tomorrow -এর ইংরেজী কি হবে ?'];
        // set all option
 var option = Array(
   ['was', 'your', 'you', 'for', 'i', 'waiting', 'were', 'me'],
@@ -52,7 +53,10 @@ var option = Array(
   ['it', 'is', 'very', 'kind', 'of', 'you', 'was', 'was'],
   ['you', 'are', 'were', 'responsible', 'for', 'this', 'of', 'your'],
   ['an', 'angle', 'face', 'with', 'a', 'devil\'s', 'mind', 'man'],
-  ['rely', 'don\'t', 'of', 'on', 'him', 'belive', 'isn\'t', 'to']
+  ['rely', 'don\'t', 'of', 'on', 'him', 'belive', 'isn\'t', 'to'],['করিছল','আমার','চড়','দেই','ওকে','মারি','মনে','পছন্দ'],
+  ['ভেঙে','আপনার','যাচ্ছে','শব্দ','কথা','কেটে','আমার','কেঁপে'],['আমনার','ছিল','আছে !','জ্ঞান','মাথা','আমার','ঠিক','ভালো'],
+  ['উঁকি','জানালা','মারছে','দরজা','সে','মারছিল','ছুঁকি','দিয়ে'],['আজ','ভুলবেন','কাল','না','যেতে','আসতে','হবে','যেন']
+                               
 );
 // set all right answare
 var rightAns = ['i was waiting for you',
@@ -64,7 +68,7 @@ var rightAns = ['i was waiting for you',
        'it is very kind of you',
         'you are responsible for this',
          'an angle face with a devil\'s mind',
-          'don\'t rely on him'];
+          'don\'t rely on him','মনে করছিল ওকে চড় মারি','আপনার কথা কেটে যাচ্ছে','আপনার মাথা ঠিক আছে !','সে জানালা দিয়ে উঁকি মারছিল','কাল যেন আসতে ভুলবেন না'];
  // setup for display
 var index = 0;
 var s = 0;
