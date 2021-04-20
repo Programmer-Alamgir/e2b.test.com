@@ -68,7 +68,7 @@ var rightAns = ['i was waiting for you',
        'it is very kind of you',
         'you are responsible for this',
          'an angle face with a devil\'s mind',
-          'don\'t rely on him','মনে করছিল ওকে চড় মারি','আপনার কথা কেটে যাচ্ছে','আপনার মাথা ঠিক আছে !','সে জানালা দিয়ে উঁকি মারছিল','কাল যেন আসতে ভুলবেন না'];
+          'don\'t rely on him','আমার মনে করছিল ওকে চড় মারি','আপনার কথা কেটে যাচ্ছে','আপনার মাথা ঠিক আছে !','সে জানালা দিয়ে উঁকি মারছিল','কাল যেন আসতে ভুলবেন না'];
  // setup for display
 var index = 0;
 var s = 0;
