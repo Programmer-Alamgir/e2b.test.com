@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15pt;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 1900px) {
+  .sub {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 45vh;
+    background: linear-gradient(25deg, rgba(45, 58, 134, 0.925), #50c8cc);
+    text-shadow: 2px 1px black;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: #ff7ade;
+  }
+  .sub::after {
+    content: " Update it's for PC and Mobile Landscape view will be comming soon";
+    text-align: center;
+    color: #ff7ade;
+    text-shadow: 2px 1px black;
+  }
+  .sub .nav, .sub #about, .sub #display, .sub #opt, .sub #btn1, .sub #btn2, .sub #btn3, .sub #btn4, .sub #btn5, .sub #btn6, .sub #btn7, .sub #btn8, .sub #smt, .sub #rs {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(223, 128, 215, 0.782);
+  }
+  .nav span {
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+    height: auto;
+    padding: 3px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    background: #0c1f33;
+    color: #3eb3b1;
+    border-radius: 0 10px 10px 0;
+  }
+  .nav p {
+    width: 100%;
+    font-size: 1.2em;
+    font-family: fantasy;
+    color: cyan;
+    padding: 5px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+  }
+  #about {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    -webkit-transition: display 1s linear;
+    transition: display 1s linear;
+    overflow: auto;
+    height: 100vh;
+    background: linear-gradient(45deg, #777a3a, #35816a, #2c3a6e);
+    top: 0;
+    left: 0;
+  }
+  #about #close {
+    font-size: 2.5em;
+    right: 10px;
+    cursor: pointer;
+    top: -5px;
+    color: #eaee14;
+    position: absolute;
+  }
+  #about address {
+    position: absolute;
+    top: 65px;
+    padding: 10px;
+    color: #ddff00;
+    text-align: center;
+  }
+  #display {
+    width: 100vw;
+    height: 220px;
+    background-color: #1f2324;
+    border: 7px inset #1bf3f0;
+  }
+  #display #ansTxt, #display #qtn {
+    width: 100%;
+    height: 50%;
+    font-size: 1em;
+    color: #00ffe5;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    letter-spacing: 0.002px;
+  }
+  #display #qtn {
+    width: 100%;
+    height: 50%;
+    border-bottom: 7px inset #00ffe5;
+    color: #17f8e2;
+  }
+  #opt {
+    background: linear-gradient(125deg, #f5afd2, #ff7ade);
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #smt, #rs {
+    display: inline-block;
+    width: 38vw;
+    height: 43px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 8px;
+    padding: 3px;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #73dcee, #d85ddf);
+    -webkit-box-shadow: 0.4px 0.4px 10px 0 black, 0.8px 0.8px 15px 0 #311616;
+            box-shadow: 0.4px 0.4px 10px 0 black, 0.8px 0.8px 15px 0 #311616;
+    -webkit-transition: -webkit-box-shadow 0.2s linear;
+    transition: -webkit-box-shadow 0.2s linear;
+    transition: box-shadow 0.2s linear;
+    transition: box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+  }
+  #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover, #smt:hover, #rs:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #smt {
+    width: 47vw;
+    background: linear-gradient(45deg, #9ce22b, #1aedd8);
+    font-family: courier;
+    font-size: 1.5em;
+    border-radius: 0 20px 20px 0;
+    margin-left: -2px;
+  }
+  #rs {
+    width: 37vw;
+    margin-right: -2px;
+    font-family: courier;
+    font-size: 1.5em;
+    border-radius: 20px 0 0 20px;
+    background: linear-gradient(45deg, #9ce22b, #1aedd8);
+  }
+  .sub {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
