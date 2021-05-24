@@ -170,7 +170,7 @@ smt.addEventListener('click', () => {
       disAns.innerHTML = '';
     } else {
       // end all question
-      var revice = confirm('Today your task hsa completed...would you like to revice now..');
+      var revice = confirm('Today your task has been completed...would you like to revice now ?');
       if (revice) {
         // want to revice now
         index = 0;
